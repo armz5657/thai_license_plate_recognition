@@ -136,7 +136,7 @@ for fileIdx = 1:length(bmpFiles)
         img_char = cell(1, 10);
         char_positions = [];
         
-        % แยกตัวอักษร
+        % split characters
         for i = 1:size(obj, 1)
             w = obj(i).BoundingBox(3);
             h = obj(i).BoundingBox(4);
